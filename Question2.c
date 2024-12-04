@@ -5,11 +5,12 @@
 #include "main.h"
 
 int sons_exec_status = 1;
-char buf[BUFFSIZE];
+extern char buf[BUFFSIZE];
 
 void read_command(char *command) {
     int nbElements = read(fdr,command,sizeof(command)-1);
     command[nbElements] = '\0';
+
 }
 
 void exec_command(const char *command,int* status) {

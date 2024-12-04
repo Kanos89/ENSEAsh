@@ -10,7 +10,6 @@
 #define BUFFSIZE 128
 #define lenght_sl
 
-
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>

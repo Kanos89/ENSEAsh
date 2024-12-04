@@ -7,5 +7,6 @@
 #include <unistd.h>
 #include "Question1.h"
 #include "Question2.h"
+#include "Question3.h"
 
 #endif //MAIN_H
