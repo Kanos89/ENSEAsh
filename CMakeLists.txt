@@ -3,4 +3,8 @@ project(ENSEAsh C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ENSEAsh main.c)
+add_executable(ENSEAsh main.c
+        Question1.c
+        Question1.h
+        main.h
+)
