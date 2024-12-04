@@ -146,7 +146,7 @@
       <workItem from="1733315871498" duration="7034000" />
       <workItem from="1733323960019" duration="801000" />
       <workItem from="1733324937023" duration="2923000" />
-      <workItem from="1733328021101" duration="30000" />
+      <workItem from="1733328021101" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="creation">
       <option name="closed" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733327815210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Question 2 with bug (2 enseash% after use of a command?? )">
+      <option name="closed" value="true" />
+      <created>1733328203099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733328203099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
