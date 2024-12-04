@@ -162,7 +162,7 @@
       <updated>1733315867294</updated>
       <workItem from="1733315871498" duration="7034000" />
       <workItem from="1733323960019" duration="801000" />
-      <workItem from="1733324937023" duration="2627000" />
+      <workItem from="1733324937023" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="creation">
       <option name="closed" value="true" />
@@ -180,7 +180,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733319355489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Question 2 with bug (2 enseash% after use of a command?? )">
+      <option name="closed" value="true" />
+      <created>1733327730727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733327730727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Question 2 with bug (2 enseash% after use of a command?? )">
+      <option name="closed" value="true" />
+      <created>1733327745355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733327745355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Question 2 with bug (2 enseash% after use of a command?? )">
+      <option name="closed" value="true" />
+      <created>1733327767019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733327767019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creation" />
     <MESSAGE value="Q1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q1" />
+    <MESSAGE value="Question 2 with bug (2 enseash% after use of a command?? )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 2 with bug (2 enseash% after use of a command?? )" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
