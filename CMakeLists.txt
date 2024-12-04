@@ -7,4 +7,6 @@ add_executable(ENSEAsh main.c
         Question1.c
         Question1.h
         main.h
+        Question2.c
+        Question2.h
 )

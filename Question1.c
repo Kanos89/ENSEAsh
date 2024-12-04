@@ -5,5 +5,6 @@
 
 void q1() {
 
+write(1,welcome_message,length_w);
 
 }
