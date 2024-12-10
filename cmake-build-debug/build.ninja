@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/kanos/Documents/ENSEAsh/cmake-build-debug/
+cmake_ninja_workdir = /home/kanos/CLionProjects/ENSEAsh/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ENSEAsh
 
@@ -49,26 +49,26 @@ cmake_ninja_workdir = /home/kanos/Documents/ENSEAsh/cmake-build-debug/
 
 build cmake_object_order_depends_target_ENSEAsh: phony || .
 
-build CMakeFiles/ENSEAsh.dir/main.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/Documents/ENSEAsh/main.c || cmake_object_order_depends_target_ENSEAsh
+build CMakeFiles/ENSEAsh.dir/main.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/CLionProjects/ENSEAsh/main.c || cmake_object_order_depends_target_ENSEAsh
   DEP_FILE = CMakeFiles/ENSEAsh.dir/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
 
-build CMakeFiles/ENSEAsh.dir/Question1.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/Documents/ENSEAsh/Question1.c || cmake_object_order_depends_target_ENSEAsh
-  DEP_FILE = CMakeFiles/ENSEAsh.dir/Question1.c.o.d
+build CMakeFiles/ENSEAsh.dir/question1.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/CLionProjects/ENSEAsh/question1.c || cmake_object_order_depends_target_ENSEAsh
+  DEP_FILE = CMakeFiles/ENSEAsh.dir/question1.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
 
-build CMakeFiles/ENSEAsh.dir/Question2.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/Documents/ENSEAsh/Question2.c || cmake_object_order_depends_target_ENSEAsh
-  DEP_FILE = CMakeFiles/ENSEAsh.dir/Question2.c.o.d
+build CMakeFiles/ENSEAsh.dir/question2.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/CLionProjects/ENSEAsh/question2.c || cmake_object_order_depends_target_ENSEAsh
+  DEP_FILE = CMakeFiles/ENSEAsh.dir/question2.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
 
-build CMakeFiles/ENSEAsh.dir/Question3.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/Documents/ENSEAsh/Question3.c || cmake_object_order_depends_target_ENSEAsh
-  DEP_FILE = CMakeFiles/ENSEAsh.dir/Question3.c.o.d
+build CMakeFiles/ENSEAsh.dir/question3.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/CLionProjects/ENSEAsh/question3.c || cmake_object_order_depends_target_ENSEAsh
+  DEP_FILE = CMakeFiles/ENSEAsh.dir/question3.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
@@ -81,7 +81,7 @@ build CMakeFiles/ENSEAsh.dir/Question3.c.o: C_COMPILER__ENSEAsh_unscanned_Debug 
 #############################################
 # Link the executable ENSEAsh
 
-build ENSEAsh: C_EXECUTABLE_LINKER__ENSEAsh_Debug CMakeFiles/ENSEAsh.dir/main.c.o CMakeFiles/ENSEAsh.dir/Question1.c.o CMakeFiles/ENSEAsh.dir/Question2.c.o CMakeFiles/ENSEAsh.dir/Question3.c.o
+build ENSEAsh: C_EXECUTABLE_LINKER__ENSEAsh_Debug CMakeFiles/ENSEAsh.dir/main.c.o CMakeFiles/ENSEAsh.dir/question1.c.o CMakeFiles/ENSEAsh.dir/question2.c.o CMakeFiles/ENSEAsh.dir/question3.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   POST_BUILD = :
@@ -94,7 +94,7 @@ build ENSEAsh: C_EXECUTABLE_LINKER__ENSEAsh_Debug CMakeFiles/ENSEAsh.dir/main.c.
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kanos/Documents/ENSEAsh/cmake-build-debug && /snap/clion/305/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/kanos/CLionProjects/ENSEAsh/cmake-build-debug && /snap/clion/305/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -105,7 +105,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kanos/Documents/ENSEAsh/cmake-build-debug && /snap/clion/305/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/kanos/Documents/ENSEAsh -B/home/kanos/Documents/ENSEAsh/cmake-build-debug
+  COMMAND = cd /home/kanos/CLionProjects/ENSEAsh/cmake-build-debug && /snap/clion/305/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/kanos/CLionProjects/ENSEAsh -B/home/kanos/CLionProjects/ENSEAsh/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -121,7 +121,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/kanos/Documents/ENSEAsh/cmake-build-debug
+# Folder: /home/kanos/CLionProjects/ENSEAsh/cmake-build-debug
 
 build all: phony ENSEAsh
 
@@ -132,14 +132,14 @@ build all: phony ENSEAsh
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/kanos/Documents/ENSEAsh/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/kanos/CLionProjects/ENSEAsh/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/kanos/Documents/ENSEAsh/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/kanos/CLionProjects/ENSEAsh/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
