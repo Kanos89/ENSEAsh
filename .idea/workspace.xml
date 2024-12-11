@@ -29,22 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3e53fd2-b7ab-4e6a-ba55-a97426956cf5" name="Changes" comment="renew questions + working exit system (question 3 )">
-      <change afterPath="$PROJECT_DIR$/question5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question5.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ENSEAsh.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ENSEAsh.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ENSEAsh" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ENSEAsh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2.c" beforeDir="false" afterPath="$PROJECT_DIR$/question2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2.h" beforeDir="false" afterPath="$PROJECT_DIR$/question2.h" afterDir="false" />
-    </list>
+    <list default="true" id="d3e53fd2-b7ab-4e6a-ba55-a97426956cf5" name="Changes" comment="work until question 5 included + changes in previous question because of the progress of the lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +55,8 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
@@ -202,7 +189,7 @@
       <workItem from="1733324937023" duration="2923000" />
       <workItem from="1733328021101" duration="1995000" />
       <workItem from="1733858874330" duration="1584000" />
-      <workItem from="1733862062442" duration="11431000" />
+      <workItem from="1733862062442" duration="11743000" />
     </task>
     <task id="LOCAL-00001" summary="creation">
       <option name="closed" value="true" />
@@ -284,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733867603348</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="work until question 5 included + changes in previous question because of the progress of the lab">
+      <option name="closed" value="true" />
+      <created>1733875518783</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733875518783</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +295,8 @@
     <MESSAGE value="Q1" />
     <MESSAGE value="Question 2 with bug (2 enseash% after use of a command?? )" />
     <MESSAGE value="renew questions + working exit system (question 3 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="renew questions + working exit system (question 3 )" />
+    <MESSAGE value="work until question 5 included + changes in previous question because of the progress of the lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="work until question 5 included + changes in previous question because of the progress of the lab" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
