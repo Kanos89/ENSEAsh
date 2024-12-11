@@ -79,6 +79,12 @@ build CMakeFiles/ENSEAsh.dir/question5.c.o: C_COMPILER__ENSEAsh_unscanned_Debug 
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
 
+build CMakeFiles/ENSEAsh.dir/question6.c.o: C_COMPILER__ENSEAsh_unscanned_Debug /home/kanos/CLionProjects/ENSEAsh/question6.c || cmake_object_order_depends_target_ENSEAsh
+  DEP_FILE = CMakeFiles/ENSEAsh.dir/question6.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/ENSEAsh.dir
+  OBJECT_FILE_DIR = CMakeFiles/ENSEAsh.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ENSEAsh
@@ -87,7 +93,7 @@ build CMakeFiles/ENSEAsh.dir/question5.c.o: C_COMPILER__ENSEAsh_unscanned_Debug 
 #############################################
 # Link the executable ENSEAsh
 
-build ENSEAsh: C_EXECUTABLE_LINKER__ENSEAsh_Debug CMakeFiles/ENSEAsh.dir/main.c.o CMakeFiles/ENSEAsh.dir/question1.c.o CMakeFiles/ENSEAsh.dir/question2.c.o CMakeFiles/ENSEAsh.dir/question3.c.o CMakeFiles/ENSEAsh.dir/question5.c.o
+build ENSEAsh: C_EXECUTABLE_LINKER__ENSEAsh_Debug CMakeFiles/ENSEAsh.dir/main.c.o CMakeFiles/ENSEAsh.dir/question1.c.o CMakeFiles/ENSEAsh.dir/question2.c.o CMakeFiles/ENSEAsh.dir/question3.c.o CMakeFiles/ENSEAsh.dir/question5.c.o CMakeFiles/ENSEAsh.dir/question6.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ENSEAsh.dir
   POST_BUILD = :

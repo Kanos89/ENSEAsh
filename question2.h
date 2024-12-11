@@ -8,9 +8,10 @@
 #include <sys/wait.h>
 
 // Prompt constants
-#define PROMPT "enseash %% "
-#define BUFF_SIZE 128
+#define PROMPT "enseash % "
+
 
 void q2(char *command, int *last_status);
-
+void read_command(char *command, size_t size);
+void execute_command(const char *command);
 #endif // QUESTION2_H

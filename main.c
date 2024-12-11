@@ -1,29 +1,16 @@
 #include "main.h"
 
 int main(void) {
-    // Display the welcome message
-    q1();
-
-    // Initialize the exit status
+    q1(); // Display welcome message
     int last_status = 0;
 
-    // Start the REPL loop
-    while (1) {
-        char command[BUFF_SIZE];
+    while(1) {
+        char command[256];
+        q2(command, &last_status); // Display prompt and read input
 
-        // Step 1: Read the command and display the prompt
-        q2(command, &last_status);
+        q3(command);
 
-        // Step 2: Handle empty input
-        if (strlen(command) == 0) {
-            continue; // Ignore empty commands
-        }
-
-        // Step 3: Handle 'exit' explicitly
-        q3(command); // Check for "exit" and exit the shell
-
-        // Step 4: Execute the command and measure timing
-        q5(command, &last_status);
+        q6(command, &last_status); // Execute commands with arguments
     }
 
     return 0;
