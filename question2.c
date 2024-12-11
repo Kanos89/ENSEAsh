@@ -26,18 +26,22 @@ void execute_command(const char *command) {
     }
 }
 
-void q2(char *command) {
-    // Display the prompt
-    write(STDOUT_FILENO, PROMPT, PROMPT_LENGTH);
+void q2(char *command, int *last_status) {
+    // Display the prompt based on the last exit status
+    if (WIFEXITED(*last_status)) {
+        printf("enseash [exit:%d] %% ", WEXITSTATUS(*last_status));
+    } else if (WIFSIGNALED(*last_status)) {
+        printf("enseash [sign:%d] %% ", WTERMSIG(*last_status));
+    } else {
+        printf("enseash %% ");
+    }
+    fflush(stdout);
 
-    // Read the command from the user
+    // Read the user input
     ssize_t bytes_read = read(STDIN_FILENO, command, BUFF_SIZE - 1);
     if (bytes_read > 0) {
         command[bytes_read - 1] = '\0'; // Replace newline with null terminator
     } else {
-        command[0] = '\0'; // Empty command if read fails
+        command[0] = '\0'; // Set empty input
     }
-
-    // Execute the command
-    execute_command(command);
 }

@@ -5,15 +5,12 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <sys/wait.h> // for the waitpid
+#include <sys/wait.h>
 
-
-#define PROMPT "enseash % "
-#define PROMPT_LENGTH (sizeof(PROMPT) - 1)
-
-// Buffer size for command input
+// Prompt constants
+#define PROMPT "enseash %% "
 #define BUFF_SIZE 128
 
-void q2(char *command);
+void q2(char *command, int *last_status);
 
 #endif // QUESTION2_H
